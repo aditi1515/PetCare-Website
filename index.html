@@ -40,6 +40,9 @@
             <li class="nav-item">
               <a href="#questions" class="nav-link">FAQS</a>
             </li>
+            <li class="nav-item">
+              <a href="#reviews" class="nav-link">Reviews</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -62,7 +65,8 @@
               aimed to make it easier to use pet clinic services as well as the
               treatment process and clinic administration
             </p>
-            <button class="btn btn-primary btn-lg text-light fw-bold">
+            <button class="btn btn-primary btn-lg text-light fw-bold"   data-bs-toggle="modal"
+            data-bs-target="#register">
               Register Your Pet
             </button>
           </div>
@@ -315,6 +319,139 @@
         </div>
       </div>
     </section>
+    <section id="reviews"  class="p-5 bg-primary">
+      <h2 class="text-center text-white mb-5">What <b class="text-dark">people</b>  said <b class="text-dark">about us</b></h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3 "><div class="card bg-light text-secondary"><div class="cardbody text-center p-4">
+          <h3 class="mb-3 my-4" >Amazing Pet Store</h3>
+          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error odio rerum et obcaecati repellendus consequuntur voluptatem reprehenderit officiis perferendis! Consequuntur itaque ea laborum tempora aliquam deleniti quasi optio necessitatibus aspernatur?</p>
+          <p >Caroline</p>
+          <a href="#"><i class="bi bi-twitter text-secondary mx-1"></i></a>
+          <a href="#"><i class="bi bi-facebook text-secondary mx-1"></i></a>
+          <a href="#"><i class="bi bi-linkedin text-secondary mx-1"></i></a>
+          <a href="#"><i class="bi bi-instagram text-secondary mx-1"></i></a>
+        </div></div></div>
+        <div class="col-md-6 col-lg-3 "><div class="card bg-light text-secondary"><div class="cardbody text-center p-4">
+          <h3 class="mb-3 my-4" >Good Food</h3>
+          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error odio rerum et obcaecati repellendus consequuntur voluptatem reprehenderit officiis perferendis! Consequuntur itaque ea laborum tempora aliquam deleniti quasi optio necessitatibus aspernatur?</p>
+          <p >Michael</p>
+          <a href="#"><i class="bi bi-twitter text-secondary mx-1"></i></a>
+          <a href="#"><i class="bi bi-facebook text-secondary mx-1"></i></a>
+          <a href="#"><i class="bi bi-linkedin text-secondary mx-1"></i></a>
+          <a href="#"><i class="bi bi-instagram text-secondary mx-1"></i></a>
+        </div></div></div>
+        <div class="col-md-6 col-lg-3 "><div class="card bg-light text-secondary"><div class="cardbody text-center p-4">
+          <h3 class="mb-3 my-4" >Extremely safe</h3>
+          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error odio rerum et obcaecati repellendus consequuntur voluptatem reprehenderit officiis perferendis! Consequuntur itaque ea laborum tempora aliquam deleniti quasi optio necessitatibus aspernatur?</p>
+          <p >Elena</p>
+          <a href="#"><i class="bi bi-twitter text-secondary mx-1"></i></a>
+          <a href="#"><i class="bi bi-facebook text-secondary mx-1"></i></a>
+          <a href="#"><i class="bi bi-linkedin text-secondary mx-1"></i></a>
+          <a href="#"><i class="bi bi-instagram text-secondary mx-1"></i></a>
+        </div></div></div>
+        <div class="col-md-6 col-lg-3 "><div class="card bg-light text-secondary"><div class="cardbody text-center p-4">
+          <h3 class="mb-3 my-4" >Best Solution Ever</h3>
+          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error odio rerum et obcaecati repellendus consequuntur voluptatem reprehenderit officiis perferendis! Consequuntur itaque ea laborum tempora aliquam deleniti quasi optio necessitatibus aspernatur?</p>
+          <p >Hailey</p>
+          <a href="#"><i class="bi bi-twitter text-secondary mx-1"></i></a>
+          <a href="#"><i class="bi bi-facebook text-secondary mx-1"></i></a>
+          <a href="#"><i class="bi bi-linkedin text-secondary mx-1"></i></a>
+          <a href="#"><i class="bi bi-instagram text-secondary mx-1"></i></a>
+        </div></div></div>
+      </div>
+    </section>
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location:</span>  XXXXXXXX
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Phone:</span> XXXXXXXX
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Email:</span>  XXXXXXXXX
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Zipcode:</span> XXXXXXXXXX
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <div id="pic">
+              <img src="images/undraw_Good_doggy_re_eet7 (1).png"  class="img-fluid d-none d-sm-block"
+              style="width: 80%"">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2022 Pet Care</p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+    <div
+    class="modal fade"
+    id="register"
+    tabindex="-1"
+    aria-labelledby="register"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="register">Pet Registration</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this form and we will get back to you</p>
+          <form>
+            <div class="mb-3">
+              <label for="first-name" class="col-form-label">
+               Enter Your Name:
+              </label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+            <div class="mb-3">
+              <label for="last-name" class="col-form-label">Enter Your Pet's Name</label>
+              <input type="text" class="form-control" id="petname" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="col-form-label">Email:</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="col-form-label">Pet's ID</label>
+              <input type="tel" class="form-control" id="petid" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
